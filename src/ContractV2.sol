@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: Unlicense
 pragma solidity ^0.8.13;
 // upgradable staking contract that has bug in it 
-contract Contract { 
+contract ContractV2 { 
     uint256 public totalstaked;
     address owner;
     uint256 public constant MIN_STAKED_PERIOD = 7;
