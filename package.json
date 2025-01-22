@@ -1,0 +1,19 @@
+{
+  "name": "upgradable_staking_contract",
+  "version": "1.0.0",
+  "description": "This repository implements an upgradable staking contract system using the proxy pattern. It includes two versions of the staking contract and a proxy contract for seamless upgrades.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0"
+  }
+}
